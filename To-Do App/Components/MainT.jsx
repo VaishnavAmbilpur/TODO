@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './MainT.css'
 const MainT = () => {
-    const [tasks,setTasks] = useState(["Walk the Dog"]);
+    const [tasks,setTasks] = useState([]);
     const [newTask, setNewTask] = useState('');
     function handleinputChange(event) {
         setNewTask(event.target.value);
